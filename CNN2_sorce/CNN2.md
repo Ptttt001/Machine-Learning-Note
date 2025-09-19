@@ -2,15 +2,15 @@
  ## CNN特點
  1. kernel大小小於input，相比於全連接，可以大量減少計算
  2. local connectivity，局部連接，一個pixel的資訊只會影響區域的計算，這樣可以減少參數量，在透過疊層的方式來加強全域的連接性
-   ![alt text](./CNN2_sorce/image.png)
-   ![alt text](./CNN2_sorce/image-1.png)
+   ![alt text](/image.png)
+   ![alt text](/image-1.png)
 3. 若該層cnn kernel 為3X3，只需最佳化找出9個參數
 ### tiled convolution
 根據位置不同，使用不同的kernel，可參考圖中，一般cnn使用ababab重複的參數，而tiled convolution則是使用不同的參數abcd
-![alt text](./CNN2_sorce/image-4.png)
+![alt text](/image-4.png)
 ### dilated convolution
 在kernel中間加上空格，這樣可以增加感受野，讓網路能夠學習到更大的範圍，且不增加計算量
-![alt text](./CNN2_sorce/image-5.png)
+![alt text](/image-5.png)
 
 ## cnn各層用意
 ### pooling
@@ -18,9 +18,9 @@
 1. stride=2，pooling後的大小會變成原本的1/4(2X2合一)
 ### padding
 由於每次卷積後，資料變小，為了避免資料減少，
-![alt text](./CNN2_sorce/image-2.png)
+![alt text](/image-2.png)
 可以在邊界加上padding，讓資料不會變小，如:zeros padding，將邊界加上0，這樣卷積後資料大小不會變小
-![alt text](./CNN2_sorce/image-3.png)
+![alt text](/image-3.png)
 ### normalization
 #### why normalization?
 normalization可以讓網路更快收斂，將資料進行從新分布，讓資料的分布更平均，如右圖。
