@@ -1,0 +1,3 @@
+# Kaggle Digit_recognize
+
+BatchNormalization是防止overfitting的手法，若資料量小，訓練epoch不高，不會overfitting的情況下，可以不使用，效果會更好
