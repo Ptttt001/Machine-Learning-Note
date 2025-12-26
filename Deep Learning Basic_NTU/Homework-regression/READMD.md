@@ -55,4 +55,4 @@ optimizer = torch.optim.ASGD(model.parameters(), lr=config['learning_rate'], lam
 
 將不是由數字表示的特徵改用0 or 1表示，可當作一種向量
 
-![Untitled](Homework-regression%207feb0271a108438fb1fb741d6791dcb1/Untitled.png)
+![Untitled](Untitled.png)

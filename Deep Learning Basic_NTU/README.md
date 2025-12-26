@@ -257,7 +257,6 @@ soft max
 
 ![Untitled](Untitled%2024.png)
 
-[CNN](CNN%20aed4da7f9db445398fbaff6bc4899376.md)
 
 # Self attention
 
